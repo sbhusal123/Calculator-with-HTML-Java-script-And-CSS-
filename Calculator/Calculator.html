@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Calculator2</title>
+<script src="script.js"></script>
+<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<fieldset id="calc">
+<div id="container">
+<div id="div1">
+<input type="text" id="display1" readonly></input>
+</div>
+<div id="numpad">
+<button onclick="num(1)" id="numbuttstyle">1</button>
+<button onclick="num(2)" id="numbuttstyle">2</button>
+<button onclick="num(3)" id="numbuttstyle">3</button><br>
+<button onclick="num(4)" id="numbuttstyle">4</button>
+<button onclick="num(5)" id="numbuttstyle">5</button>
+<button onclick="num(6)" id="numbuttstyle">6</button><br>
+<button onclick="num(7)" id="numbuttstyle">7</button>
+<button onclick="num(8)" id="numbuttstyle">8</button>
+<button onclick="num(9)" id="numbuttstyle">9</button><br>
+<button onclick="num(0)" id="numbuttstyle">0</button>
+<button onclick="num(12)" id="numbuttstyle">AC</button>
+<button onclick="num(11)" id="numbuttstyle">C</button>
+</div>
+<div id="operation">
+<button onclick="on()" id="numbuttstyle">On</button>
+<button onclick="off()" id="numbuttstyle">Off</button><br>
+<button onclick="process(92)" id="numbuttstyle">+</button>
+<button onclick="process(93)" id="numbuttstyle">-</button><br>
+<button onclick="process(94)" id="numbuttstyle">*</button>
+<button onclick="process(95)" id="numbuttstyle">/</button><br>
+<button onclick="point()" id="numbuttstyle"><b>.</b></button>
+<button onclick="process(96)" id="resbuttstyle">=</button><br>
+</div>
+</div>
+</fieldset>
+<button onclick="sign()" id="numbuttstyle">+/-</button>
+<button onclick="about()" id="about" >About</button>
+</body>
+</html>
